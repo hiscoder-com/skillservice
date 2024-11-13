@@ -19,6 +19,16 @@ export default {
 			width: {
 				588: '36.75rem',
 			},
+			keyframes: {
+				ticker: {
+					'0%': { transform: 'translateX(0)' },
+					'100%': { transform: 'translateX(-100%)' },
+				},
+			},
+
+			animation: {
+				ticker: 'ticker 5s linear infinite',
+			},
 		},
 		colors: {
 			gradient: {

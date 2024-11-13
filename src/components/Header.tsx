@@ -13,6 +13,13 @@ function Header() {
 					<span className='mt-3 font-lexend text-lg text-primary-400 font-semibold md:mt-6 md:text-2xl xl:text-3xl'>
 						Train. Improve. Reward Yourself
 					</span>
+					<a
+						target='_blank'
+						href='https://www.instagram.com/skilldorcom'
+						className='flex items-center mt-6 text-primary-500 font-lexend font-semibold text-base md:text-xl md:mt-8 xl:text-2xl'>
+						<img src='instagram-icon.svg' alt='instagram' className='pr-3' />
+						<span>Join us now in Instagram!</span>
+					</a>
 				</div>
 				<img
 					src='BasketballBall.png'

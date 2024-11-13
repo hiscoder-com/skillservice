@@ -22,7 +22,7 @@ function Header() {
 					</a>
 				</div>
 				<img
-					src='BasketballBall.png'
+					src='BasketballBall@2x.png'
 					alt='Basketball ball'
 					className='mt-5 w-48 md:mt-16 md:w-72 xl:w-96 xl:mt-0 xl:self-start 2xl:w-588'
 				/>

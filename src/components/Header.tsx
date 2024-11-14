@@ -7,8 +7,8 @@ function Header() {
 				<div className='flex flex-col items-center xl:items-start'>
 					<img src='Logo.svg' alt='Skilldor' className='w-20 md:w-32 xl:w-40' />
 					<h1 className='mt-10 font-koulen text-7xl font-normal text-center text-primary-500 md:mt-12 md:text-110 xl:text-left xl:mt-20 xl:text-100 2xl:text-120'>
-						Your <br className='md:hidden' /> Basketball <br /> Journey
-						<br className='xl:hidden' /> Starts Here
+						Master <br className='lg:hidden' /> Your Game,
+						<br /> The Fun Way
 					</h1>
 					<span className='mt-3 font-lexend text-lg text-primary-400 font-semibold md:mt-6 md:text-2xl xl:text-3xl'>
 						Train. Improve. Reward Yourself

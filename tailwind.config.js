@@ -7,7 +7,7 @@ export default {
 		extend: {
 			fontFamily: {
 				koulen: 'Koulen, sans-serif',
-				lexend: 'Lexend, sans-serif',
+				lexend: 'Lexend-VariableFont_wght, sans-serif',
 			},
 			fontSize: {
 				100: '6.3rem',

@@ -7,11 +7,9 @@ const RunningLine = () => {
 
 	return (
 		<div className='flex w-full items-center overflow-hidden h-32 mt-4 md:mt-9 md:h-48 xl:mt-44 2xl:h-64 2xl:mt-28'>
-			<div className='flex w-full'>
-				{[...Array(6)].map((_, i) => (
-					<SlideElement key={i} />
-				))}
-			</div>
+			{[...Array(8)].map((_, i) => (
+				<SlideElement key={i} />
+			))}
 		</div>
 	)
 }

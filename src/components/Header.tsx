@@ -2,7 +2,7 @@ import RunningLine from './RunningLine'
 
 function Header() {
 	return (
-		<div className='pt-10 pb-14 flex flex-col items-center bg-gradient-to-b from-60% from-gradient-start to-gradient-end md:pt-16 md:pb-20 xl:pt-32 xl:pb-24 2xl:pb-20'>
+		<header className='pt-10 pb-14 min-w-full min-h-full flex flex-col items-center justify-between bg-gradient-to-b from-60% from-gradient-start to-gradient-end md:pt-16 md:pb-20 xl:pt-32 xl:pb-24 2xl:pb-20'>
 			<div className='flex flex-col xl:flex-row items-center w-full xl:px-14 xl:justify-between 2xl:px-32'>
 				<div className='flex flex-col items-center xl:items-start'>
 					<img src='Logo.svg' alt='Skilldor' className='w-20 md:w-32 xl:w-40' />
@@ -28,7 +28,7 @@ function Header() {
 				/>
 			</div>
 			<RunningLine />
-		</div>
+		</header>
 	)
 }
 

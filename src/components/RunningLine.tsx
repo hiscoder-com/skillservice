@@ -1,6 +1,6 @@
 const RunningLine = () => {
 	const SlideElement = () => (
-		<span className='animate-ticker shrink-0 px-14 flex items-center whitespace-nowrap text-8xl font-lexend font-medium text-primary-50 md:text-150 2xl:text-200'>
+		<span className='animate-ticker shrink-0 px-14 flex items-center whitespace-nowrap text-[10.8vh] font-lexend font-medium text-primary-50 md:text-150 2xl:text-200'>
 			Coming soon
 		</span>
 	)

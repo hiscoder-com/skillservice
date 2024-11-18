@@ -10,9 +10,10 @@ export default {
 				lexend: 'Lexend-VariableFont_wght, sans-serif',
 			},
 			fontSize: {
-				100: '6.3rem',
-				110: '6.9rem',
-				120: '7.5rem',
+				100: '6.8vw',
+				110: '8.7vh',
+				120: '6.1vw',
+				140: '7.07vw',
 				150: '9.4rem',
 				200: '12.5rem',
 			},

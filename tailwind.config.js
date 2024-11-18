@@ -6,7 +6,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				koulen: 'Koulen, sans-serif',
+				koulen: 'Koulen-Regular, sans-serif',
 				lexend: 'Lexend-VariableFont_wght, sans-serif',
 			},
 			fontSize: {

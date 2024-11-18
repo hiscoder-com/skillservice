@@ -11,9 +11,9 @@ function Form() {
 				<input
 					type='email'
 					placeholder='Your email'
-					className='w-full placeholder:text-sm placeholder:font-lexend p-4 rounded-lg text-sm mt-[1.8vh]'
+					className='w-full placeholder:text-sm placeholder:font-lexend p-[1.48vh] rounded-lg text-sm mt-[1.48vh]'
 				/>
-				<button className='w-full bg-primary-300 h-12 rounded-lg mt-4 font-lexend text-sm'>
+				<button className='w-full bg-primary-300 h-[5.4vh] rounded-lg mt-[1.48vh] font-lexend text-sm'>
 					Join wishlist
 				</button>
 			</form>

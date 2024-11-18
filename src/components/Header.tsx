@@ -3,7 +3,7 @@ import RunningLine from './RunningLine'
 
 function Header() {
 	return (
-		<header className='relative pt-[4vh] pb-[4vh] min-w-full min-h-full flex flex-col items-center justify-between bg-gradient-to-b from-60% from-gradient-start to-gradient-end md:pt-16 md:pb-20 xl:pt-32 xl:pb-24 2xl:pb-20'>
+		<header className='relative pt-[4vh] pb-[4vh] min-w-full h-full flex flex-col items-center justify-between bg-gradient-to-b from-60% from-gradient-start to-gradient-end md:pt-16 md:pb-20 xl:pt-32 xl:pb-24 2xl:pb-20'>
 			<div className='flex flex-col xl:flex-row items-center w-full xl:px-14 xl:justify-between 2xl:px-32'>
 				<div className='flex flex-col items-center xl:items-start'>
 					<img

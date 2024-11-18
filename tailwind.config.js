@@ -27,18 +27,21 @@ export default {
 			},
 
 			animation: {
-				ticker: 'ticker 5s linear infinite',
+				ticker: 'ticker 10s linear infinite',
 			},
 		},
 		colors: {
+			white: '#ffffff',
 			gradient: {
 				start: '#F0FAFB',
 				end: '#4CA7C4',
 			},
 			primary: {
 				50: '#F0FAFB',
+				300: '#FF8A14',
 				400: '#308BAA',
 				500: '#294E61',
+				600: '#4CA7C4',
 			},
 		},
 	},

@@ -4,7 +4,7 @@ import RunningLine from './RunningLine'
 
 function Header() {
 	return (
-		<header className='relative pt-[4vh] pb-[4vh] min-w-full min-h-full flex flex-col items-center justify-between bg-gradient-to-b from-60% from-gradient-start to-gradient-end md:pt-[3.97vh] md:pb-[4.5vh] xl:py-[8.6vh] 2xl:py-[7.9vh]'>
+		<header className='relative pt-[4vh] pb-[4vh] min-w-full min-h-full flex flex-col items-center justify-between bg-gradient-to-b from-60% from-gradient-start to-gradient-end md:pt-[3.97vh] md:pb-[4.5vh] xl:py-[8.6vh] 2xl:py-[7vh]'>
 			<div className='flex flex-col xl:flex-row items-center w-full xl:px-14 xl:justify-between 2xl:px-32'>
 				<div className='flex flex-col items-center xl:items-start'>
 					<img
@@ -33,7 +33,7 @@ function Header() {
 						</span>
 					</a>
 				</div>
-				<div className='relative mx-auto w-[26vh] h-[24vh] xl:w-[47vh] xl:h-[48vh] xl:mx-0 2xl:w-[61vh] 2xl:h-[60vh] overflow-hidden'>
+				<div className='relative mx-auto w-[26vh] h-[24vh] xl:w-[47vh] xl:h-[48vh] xl:mx-0 2xl:w-[61vh] 2xl:h-[55vh] overflow-hidden'>
 					<LottieAnimation />
 				</div>
 			</div>

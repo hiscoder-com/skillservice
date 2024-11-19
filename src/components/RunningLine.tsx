@@ -6,7 +6,7 @@ const RunningLine = () => {
 	)
 
 	return (
-		<div className='absolute bottom-0 left-0 flex w-full items-center overflow-hidden h-[9vh] md:h-[10vh] xl:h-[22vh] 2xl:h-[24vh]'>
+		<div className='absolute bottom-0 left-0 flex w-full items-center overflow-hidden h-24 md:h-32 xl:h-44'>
 			{[...Array(8)].map((_, i) => (
 				<SlideElement key={i} />
 			))}

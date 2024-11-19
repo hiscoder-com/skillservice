@@ -12,7 +12,7 @@ const LottieAnimation = () => {
 	}
 
 	return (
-		<div className='absolute -top-[9vh] -left-7 w-[40vh] md:w-[40vh] md:-left-20 xl:w-[37.5vh] xl:mt-0 xl:self-start 2xl:w-[54.3vh]'>
+		<div className='absolute -top-[9vh] -left-16 w-[40vh] md:w-[40vh] md:-left-20 xl:w-[70vh] 2xl:w-[87vh] 2xl:-top-[17vh]'>
 			<Lottie options={defaultOptions} />
 		</div>
 	)

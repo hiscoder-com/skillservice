@@ -33,14 +33,9 @@ function Header() {
 						</span>
 					</a>
 				</div>
-				<div className='relative mx-auto w-[29vh] h-[24vh] overflow-hidden flex justify-center'>
+				<div className='relative mx-auto w-[26vh] h-[24vh] xl:w-[47vh] xl:h-[48vh] xl:mx-0 2xl:w-[61vh] 2xl:h-[60vh] overflow-hidden'>
 					<LottieAnimation />
 				</div>
-				{/* <img
-					src='BasketballBall@2x.png'
-					alt='Basketball ball'
-					className='mt-[2.25vh] w-[18vh] md:mt-[2.54vh] md:w-[23.7vh] xl:w-[37.5vh] xl:mt-0 xl:self-start 2xl:w-[54.3vh]'
-				/> */}
 			</div>
 			<Form />
 			<RunningLine />

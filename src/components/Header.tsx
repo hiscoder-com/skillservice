@@ -1,4 +1,5 @@
 import Form from './Form'
+import LottieAnimation from './LottieAnimation'
 import RunningLine from './RunningLine'
 
 function Header() {
@@ -32,11 +33,14 @@ function Header() {
 						</span>
 					</a>
 				</div>
-				<img
+				<div className='relative mx-auto w-[29vh] h-[24vh] overflow-hidden flex justify-center'>
+					<LottieAnimation />
+				</div>
+				{/* <img
 					src='BasketballBall@2x.png'
 					alt='Basketball ball'
 					className='mt-[2.25vh] w-[18vh] md:mt-[2.54vh] md:w-[23.7vh] xl:w-[37.5vh] xl:mt-0 xl:self-start 2xl:w-[54.3vh]'
-				/>
+				/> */}
 			</div>
 			<Form />
 			<RunningLine />

@@ -28,7 +28,7 @@ export default {
 			},
 
 			animation: {
-				ticker: 'ticker 10s linear infinite',
+				ticker: 'ticker 20s linear infinite',
 			},
 		},
 		colors: {

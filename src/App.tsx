@@ -1,5 +1,5 @@
 import Form from './components/Form'
-import LottieAnimation from './components/LottieAnimation'
+import Lottie from './components/LottieAnimation'
 import RunningLine from './components/RunningLine'
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
 					</a>
 				</div>
 				<div className='relative mx-auto w-[26vh] h-[24vh] xl:w-[47vh] xl:h-[48vh] xl:mx-0 2xl:w-[61vh] 2xl:h-[55vh] overflow-hidden'>
-					<LottieAnimation />
+					<Lottie />
 				</div>
 			</div>
 			<Form />

@@ -25,10 +25,27 @@ export default {
 					'0%': { transform: 'translateX(0)' },
 					'100%': { transform: 'translateX(-100%)' },
 				},
+				displayFirst: {
+					'0%': { opacity: 1 },
+					'40%': { opacity: 1 },
+					'45%': { opacity: 0 },
+					'95%': { opacity: 0 },
+					'100%': { opacity: 1 },
+				},
+				displaySecond: {
+					'0%': { opacity: 0 },
+					'45%': { opacity: 0 },
+					'50%': { opacity: 1 },
+					'90%': { opacity: 1 },
+					'95%': { opacity: 0 },
+					'100%': { opacity: 0 },
+				},
 			},
 
 			animation: {
 				ticker: 'ticker 20s linear infinite',
+				displayFirst: 'displayFirst 20s linear infinite',
+				displaySecond: 'displaySecond 20s linear infinite',
 			},
 		},
 		colors: {

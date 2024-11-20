@@ -12,10 +12,16 @@ function App() {
 						alt='Skilldor'
 						className='w-[8vh] md:w-[9.54vh] xl:w-[15.62vh] 2xl:w-[15.63vh]'
 					/>
-					<h1 className='mt-[4.5vh] font-koulen text-[7.1vh] w-full leading-[0.9] font-normal text-center text-primary-500 md:mt-[3vh] md:text-110 xl:text-left xl:mt-[4.6vh] xl:text-[6.9vw] 2xl:text-[11.1vh] 2xl:mt-[5.18vh]'>
+					<div className='relative'>
+					<h1 className='mt-[4.5vh] font-koulen text-[7.1vh] w-full leading-[0.9] font-normal text-center text-primary-500 md:mt-[3vh] md:text-110 xl:text-left xl:mt-[4.6vh] xl:text-[6.9vw] 2xl:text-[11.1vh] 2xl:mt-[5.18vh] animate-displayFirst'>
 						Master <br className='lg:hidden' /> Your Game,
 						<br /> The Fun Way
 					</h1>
+					<h2 className='absolute top-0 left-0 mt-[4.5vh] font-koulen text-[7.1vh] w-full leading-[0.9] font-normal text-center text-primary-500 md:mt-[3vh] md:text-110 xl:text-left xl:mt-[4.6vh] xl:text-[6.9vw] 2xl:text-[11.1vh] 2xl:mt-[5.18vh] animate-displaySecond'>
+					Skilldor: <br />
+					Discipline Gamified
+					</h2>
+					</div>
 					<span className='mt-[1.35vh] font-lexend text-[1.9vh] text-primary-400 font-semibold md:mt-[1.9vh] md:text-[1.9vh] xl:text-[2.73vh] xl:mt-[2.34vh]'>
 						Train. Improve. Reward Yourself
 					</span>

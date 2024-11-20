@@ -9,7 +9,7 @@ const Lottie = () => {
 
   const { View } = useLottie(options);
 
-  return <div className='absolute -top-[9vh] -left-16 w-[40vh] md:w-[40vh] md:-left-20 xl:w-[70vh] 2xl:w-[87vh] 2xl:-top-[22vh]'>{View}</div>;
+  return <div className='absolute -top-[9vh] -right-16 w-[40vh] md:w-[40vh] md:-right-[8vh] xl:-right-[10vh] xl:w-[70vh] 2xl:-right-[19vh] 2xl:w-[87vh] 2xl:-top-[22vh]'>{View}</div>;
 };
 
 export default Lottie;

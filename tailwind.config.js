@@ -6,13 +6,14 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				koulen: 'Koulen, sans-serif',
-				lexend: 'Lexend, sans-serif',
+				koulen: 'Koulen-Regular, sans-serif',
+				lexend: 'Lexend-VariableFont_wght, sans-serif',
 			},
 			fontSize: {
-				100: '6.3rem',
-				110: '6.9rem',
-				120: '7.5rem',
+				100: '6.8vw',
+				110: '8.7vh',
+				120: '6.1vw',
+				140: '7.07vw',
 				150: '9.4rem',
 				200: '12.5rem',
 			},
@@ -24,21 +25,43 @@ export default {
 					'0%': { transform: 'translateX(0)' },
 					'100%': { transform: 'translateX(-100%)' },
 				},
+				displayFirst: {
+					'0%': { opacity: 1 },
+					'40%': { opacity: 1 },
+					'45%': { opacity: 0 },
+					'95%': { opacity: 0 },
+					'100%': { opacity: 1 },
+				},
+				displaySecond: {
+					'0%': { opacity: 0 },
+					'45%': { opacity: 0 },
+					'50%': { opacity: 1 },
+					'90%': { opacity: 1 },
+					'95%': { opacity: 0 },
+					'100%': { opacity: 0 },
+				},
 			},
 
 			animation: {
-				ticker: 'ticker 5s linear infinite',
+				ticker: 'ticker 20s linear infinite',
+				displayFirst: 'displayFirst 20s linear infinite',
+				displaySecond: 'displaySecond 20s linear infinite',
 			},
 		},
 		colors: {
+			white: '#ffffff',
 			gradient: {
 				start: '#F0FAFB',
 				end: '#4CA7C4',
 			},
 			primary: {
 				50: '#F0FAFB',
+				100: '#EB6D00',
+				200: '#FA7D11',
+				300: '#FF8A14',
 				400: '#308BAA',
 				500: '#294E61',
+				600: '#4CA7C4',
 			},
 		},
 	},

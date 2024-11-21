@@ -1,10 +1,8 @@
-// import axios from "axios"
-
 import { useForm } from '@formspree/react';
 
 function Form() {
 
-	const [state, handleSubmit] = useForm(`${import.meta.env.VITE_FORMSPREE_CODE}`);
+	const [state, handleSubmit] = useForm(`mzzbzjdl`);
   if (state.succeeded) {
       return <p className='z-10 text-white text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl text-center font-koulen'>Thanks for your subscription! <br className='xl:hidden'/>Stay tuned for updates.</p>;
   }

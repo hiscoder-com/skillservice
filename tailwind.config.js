@@ -40,12 +40,17 @@ export default {
 					'95%': { opacity: 0 },
 					'100%': { opacity: 0 },
 				},
+				display: {
+					'0%': {opacity: 0, scale: '70%'},
+					'100%': {opacity: 1, scale: '100%'},
+				}
 			},
 
 			animation: {
 				ticker: 'ticker 20s linear infinite',
 				displayFirst: 'displayFirst 20s linear infinite',
 				displaySecond: 'displaySecond 20s linear infinite',
+				display: 'display 0.2s ease-out',
 			},
 		},
 		colors: {

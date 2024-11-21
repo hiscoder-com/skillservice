@@ -16,7 +16,7 @@ function Form() {
 			</h3>
 			<form onSubmit={handleSubmit} className='w-full bg-primary-400 p-6 rounded-2xl text-center mt-[1vh] md:mt-0 md:w-[42.1rem] lg:w-[47rem] xl:w-96'>
 				<h4 className='text-white font-lexend text-[2vh] md:text-[1.9vh] leading-none xl:text-2xl'>
-					Subscribe for updates
+				Be among the first to try it!
 				</h4>
 				<input
 					name="email"

@@ -29,7 +29,7 @@ function Social() {
           <img
             src={icon.icon}
             alt={icon.alt}
-            className='p-2 w-[5.55vh] md:w-[4vh] xl:w-[4.68vh]'
+            className='p-2 w-[5.55vh] md:w-[6vh] xl:w-[4.68vh]'
           />
         </a>
       ))}

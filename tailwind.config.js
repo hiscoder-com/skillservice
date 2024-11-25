@@ -8,6 +8,7 @@ export default {
 			fontFamily: {
 				koulen: 'Koulen-Regular, sans-serif',
 				lexend: 'Lexend-VariableFont_wght, sans-serif',
+				sourGummy: 'SourGummy, sans-serif',
 			},
 			fontSize: {
 				100: '6.8vw',
@@ -56,17 +57,17 @@ export default {
 		colors: {
 			white: '#ffffff',
 			gradient: {
-				start: '#F0FAFB',
-				end: '#4CA7C4',
+				start: '#EEFFFA',
+				end: '#619C8A',
 			},
 			primary: {
 				50: '#F0FAFB',
 				100: '#EB6D00',
 				200: '#FA7D11',
-				300: '#FF8A14',
-				400: '#308BAA',
-				500: '#294E61',
-				600: '#4CA7C4',
+				300: '#FCCA47',
+				400: '#498373',
+				500: '#30554B',
+				600: '#619C8A',
 			},
 		},
 	},

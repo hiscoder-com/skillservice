@@ -14,6 +14,12 @@
 		src: url('/fonts/Koulen-Regular.ttf') format('truetype');
 		font-style: normal;
 	}
+
+	@font-face {
+		font-family: 'SourGummy';
+		src: url('/fonts/SourGummy-VariableFont_wdth,wght.ttf') format('truetype');
+		font-style: normal;
+	}
 }
 
 *,

@@ -1,7 +1,7 @@
 import Form from './components/Form'
 import Lottie from './components/LottieAnimation'
 import RunningLine from './components/RunningLine'
-import Social from './components/social'
+import Social from './components/Social'
 
 function App() {
 	return (

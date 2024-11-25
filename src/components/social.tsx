@@ -7,17 +7,17 @@ function Social() {
   },
   {
     icon: 'tik tok.svg',
-    link: '#',
+    link: 'https://www.tiktok.com/@skilldor',
     alt: 'tik tok'
   },
   {
     icon: 'youtube.svg',
-    link: '#',
+    link: 'https://www.youtube.com/@skilldorcom',
     alt: 'youtube'
   },
   {
     icon: 'X.svg',
-    link: '#',
+    link: 'https://x.com/skilldorcom',
     alt: 'X'
   }
 ]

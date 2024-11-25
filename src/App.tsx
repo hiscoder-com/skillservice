@@ -11,19 +11,19 @@ function App() {
 					<img
 						src='Logo.svg'
 						alt='Skilldor'
-						className='w-[17.03vh] md:w-[21.79vh] xl:w-[28.46vh] 2xl:w-[15.63vh]'
+						className='w-[17.03vh] md:w-[21.79vh] xl:w-[28.46vh] 2xl:w-[30.09vh]'
 					/>
 					<div className='relative'>
-					<h1 className='mt-[3vh] font-lexend text-[5.24vh] w-full leading-[1.1] font-bold text-center text-primary-500 md:mt-[3.77vh] md:text-[7.33vh] xl:text-left xl:mt-[4.6vh] xl:text-[5.55vw] 2xl:text-[11.1vh] 2xl:mt-[5.18vh] animate-displayFirst'>
+					<h1 className='mt-[3vh] font-lexend text-[5.24vh] w-full leading-[1.1] font-bold text-center text-primary-500 md:mt-[3.77vh] md:text-[7.33vh] xl:text-left xl:mt-[4.6vh] xl:text-[5.55vw] 2xl:text-[10.18vh] 2xl:mt-[4.44vh] animate-displayFirst'>
 						<span className='lg:whitespace-nowrap'>Master <br className='md:hidden' /> Your Game,</span>
 						<br /> The Fun Way
 					</h1>
-					<h2 className='absolute top-0 left-0 mt-[3.14vh] font-lexend text-[5.24vh] w-full leading-[1.1] font-bold text-center text-primary-500 md:mt-[3.77vh] md:text-[7.33vh] xl:text-left xl:mt-[4.6vh] xl:text-[5.55vw] 2xl:text-[11.1vh] 2xl:mt-[5.18vh] animate-displaySecond'>
+					<h2 className='absolute top-0 left-0 mt-[3.14vh] font-lexend text-[5.24vh] w-full leading-[1.1] font-bold text-center text-primary-500 md:mt-[3.77vh] md:text-[7.33vh] xl:text-left xl:mt-[4.6vh] xl:text-[5.55vw] 2xl:text-[10.18vh] 2xl:mt-[4.44vh] animate-displaySecond'>
 					Skilldor: <br />
 					<span className='md:whitespace-nowrap'>Discipline Gamified</span>
 					</h2>
 					</div>
-					<span className='mt-[1.6vh] font-sourGummy text-[2.09vh] text-primary-400 font-semibold md:mt-[1.88vh] md:text-[2.51vh] xl:text-[3.06vh] xl:mt-[2.62vh]'>
+					<span className='mt-[1.6vh] font-sourGummy text-[2.09vh] text-primary-400 font-semibold md:mt-[1.88vh] md:text-[2.51vh] xl:text-[3.06vh] xl:mt-[2.62vh] 2xl:text-[3.14vh]'>
 						Train. Improve. Reward Yourself
 					</span>
 						<Social />

@@ -8,6 +8,7 @@ export default {
 			fontFamily: {
 				koulen: 'Koulen-Regular, sans-serif',
 				lexend: 'Lexend-VariableFont_wght, sans-serif',
+				sourGummy: 'SourGummy, sans-serif',
 			},
 			fontSize: {
 				100: '6.8vw',
@@ -43,6 +44,12 @@ export default {
 				display: {
 					'0%': {opacity: 0, scale: '70%'},
 					'100%': {opacity: 1, scale: '100%'},
+				},
+				hoverIcon: {
+					'0%': {transform: 'rotate(0)'},
+					'33%': {transform: 'rotate(10deg)'},
+					'66%': {transform: 'rotate(-10deg)'},
+					'100%': {transform: 'rotate(0)'},
 				}
 			},
 
@@ -51,22 +58,23 @@ export default {
 				displayFirst: 'displayFirst 20s linear infinite',
 				displaySecond: 'displaySecond 20s linear infinite',
 				display: 'display 0.2s ease-out',
+				hoverIcon: 'hoverIcon 0.2s ease-out 0.1s',
 			},
 		},
 		colors: {
 			white: '#ffffff',
 			gradient: {
-				start: '#F0FAFB',
-				end: '#4CA7C4',
+				start: '#EEFFFA',
+				end: '#619C8A',
 			},
 			primary: {
 				50: '#F0FAFB',
-				100: '#EB6D00',
-				200: '#FA7D11',
-				300: '#FF8A14',
-				400: '#308BAA',
-				500: '#294E61',
-				600: '#4CA7C4',
+				100: '#fdb500',
+				200: '#f5bf36',
+				300: '#FCCA47',
+				400: '#498373',
+				500: '#30554B',
+				600: '#619C8A',
 			},
 		},
 	},

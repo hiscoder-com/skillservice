@@ -44,6 +44,12 @@ export default {
 				display: {
 					'0%': {opacity: 0, scale: '70%'},
 					'100%': {opacity: 1, scale: '100%'},
+				},
+				hoverIcon: {
+					'0%': {transform: 'rotate(0)'},
+					'33%': {transform: 'rotate(10deg)'},
+					'66%': {transform: 'rotate(-10deg)'},
+					'100%': {transform: 'rotate(0)'},
 				}
 			},
 
@@ -52,6 +58,7 @@ export default {
 				displayFirst: 'displayFirst 20s linear infinite',
 				displaySecond: 'displaySecond 20s linear infinite',
 				display: 'display 0.2s ease-out',
+				hoverIcon: 'hoverIcon 0.2s ease-out 0.1s',
 			},
 		},
 		colors: {

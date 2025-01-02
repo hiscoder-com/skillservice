@@ -42,15 +42,15 @@ export default {
 					'100%': { opacity: 0 },
 				},
 				display: {
-					'0%': {opacity: 0, scale: '70%'},
-					'100%': {opacity: 1, scale: '100%'},
+					'0%': { opacity: 0, scale: '70%' },
+					'100%': { opacity: 1, scale: '100%' },
 				},
 				hoverIcon: {
-					'0%': {transform: 'rotate(0)'},
-					'33%': {transform: 'rotate(10deg)'},
-					'66%': {transform: 'rotate(-10deg)'},
-					'100%': {transform: 'rotate(0)'},
-				}
+					'0%': { transform: 'rotate(0)' },
+					'33%': { transform: 'rotate(10deg)' },
+					'66%': { transform: 'rotate(-10deg)' },
+					'100%': { transform: 'rotate(0)' },
+				},
 			},
 
 			animation: {
@@ -64,17 +64,17 @@ export default {
 		colors: {
 			white: '#ffffff',
 			gradient: {
-				start: '#EEFFFA',
-				end: '#619C8A',
+				start: '#F0FAFB',
+				end: '#4CA7C4',
 			},
 			primary: {
 				50: '#F0FAFB',
 				100: '#fdb500',
 				200: '#f5bf36',
 				300: '#FCCA47',
-				400: '#498373',
-				500: '#30554B',
-				600: '#619C8A',
+				400: '#308BAA',
+				500: '#294E61',
+				600: '#4CA7C4',
 			},
 		},
 	},

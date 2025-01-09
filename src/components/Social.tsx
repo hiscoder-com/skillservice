@@ -2,22 +2,22 @@ function Social() {
 	const icons = [
 		{
 			icon: 'instagram.svg',
-			link: '#',
+			link: 'https://www.instagram.com/skilldorcom',
 			alt: 'instagram',
 		},
 		{
 			icon: 'tik tok.svg',
-			link: '#',
+			link: 'https://www.tiktok.com/@skilldor',
 			alt: 'tik tok',
 		},
 		{
 			icon: 'youtube.svg',
-			link: '#',
+			link: 'https://www.youtube.com/@skilldorcom',
 			alt: 'youtube',
 		},
 		{
 			icon: 'X.svg',
-			link: '#',
+			link: 'https://x.com/skilldorcom',
 			alt: 'X',
 		},
 	]

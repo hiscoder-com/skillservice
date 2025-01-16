@@ -1,6 +1,11 @@
 function Social() {
 	const icons = [
 		{
+			icon: 'Discord.svg',
+			link: 'https://discord.gg/SjUgYyK3',
+			alt: 'Discord',
+		},
+		{
 			icon: 'instagram.svg',
 			link: 'https://www.instagram.com/skilldorcom',
 			alt: 'instagram',

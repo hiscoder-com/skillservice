@@ -14,18 +14,18 @@ function HomePage() {
 						className='w-[10.22vh] h-[7.99vh] md:w-[12.58vh] md:h-[9.75vh] xl:w-[17.52vh] xl:h-[13.68vh] 2xl:w-[14.82vh] 2xl:h-[11.57vh]'
 					/>
 					<div className='relative'>
-						<h1 className='mt-[2vh] font-lexend text-[5.24vh] w-full leading-[1.05] font-bold text-center text-primary-500 md:mt-[3.77vh] md:text-[7.33vh] xl:text-left xl:mt-[4.6vh] xl:text-[5.55vw] 2xl:text-[10.18vh] 2xl:mt-[4.44vh] animate-displayFirst'>
+						<h1 className='select-none mt-[2vh] font-lexend text-[5.24vh] w-full leading-[1.05] font-bold text-center text-primary-500 md:mt-[3.77vh] md:text-[7.33vh] xl:text-left xl:mt-[4.6vh] xl:text-[5.55vw] 2xl:text-[10.18vh] 2xl:mt-[4.44vh] animate-displayFirst'>
 							<span className='lg:whitespace-nowrap'>
 								Master <br className='md:hidden' /> Your Game,
 							</span>
 							<br /> The Fun Way
 						</h1>
-						<h2 className='absolute top-0 left-0 mt-[3.14vh] font-lexend text-[5.24vh] w-full leading-[1.05] font-bold text-center text-primary-500 md:mt-[3.77vh] md:text-[7.33vh] xl:text-left xl:mt-[4.6vh] xl:text-[5.55vw] 2xl:text-[10.18vh] 2xl:mt-[4.44vh] animate-displaySecond'>
+						<h2 className='select-none absolute top-0 left-0 mt-[3.14vh] font-lexend text-[5.24vh] w-full leading-[1.05] font-bold text-center text-primary-500 md:mt-[3.77vh] md:text-[7.33vh] xl:text-left xl:mt-[4.6vh] xl:text-[5.55vw] 2xl:text-[10.18vh] 2xl:mt-[4.44vh] animate-displaySecond'>
 							Skilldor: <br />
 							<span className='md:whitespace-nowrap'>Discipline Gamified</span>
 						</h2>
 					</div>
-					<span className='mt-[1.6vh] font-sourGummy text-[2.09vh] text-primary-400 font-semibold md:mt-[1.88vh] md:text-[2.51vh] xl:text-[3.06vh] xl:mt-[2.62vh] 2xl:text-[3.14vh]'>
+					<span className='select-none mt-[1.6vh] font-sourGummy text-[2.09vh] text-primary-400 font-semibold md:mt-[1.88vh] md:text-[2.51vh] xl:text-[3.06vh] xl:mt-[2.62vh] 2xl:text-[3.14vh]'>
 						Train. Improve. Reward Yourself
 					</span>
 					<Social />

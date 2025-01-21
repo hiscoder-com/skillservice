@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom'
 
-import Layout from './Layout'
+import Layout from './Layout.js'
 
-import HomePage from './pages/HomePage.jsx'
-import Legal from './pages/Legal.jsx'
-import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
-import Terms from './pages/Terms.jsx'
-import ContactForm from './pages/ContactForm.jsx'
-import NotFound from './pages/NotFound.jsx'
+import HomePage from './pages/HomePage.js'
+import Legal from './pages/Legal.js'
+import PrivacyPolicy from './pages/PrivacyPolicy.js'
+import Terms from './pages/Terms.js'
+import ContactForm from './pages/ContactForm.js'
+import NotFound from './pages/NotFound.js'
 
 function App() {
 	return (

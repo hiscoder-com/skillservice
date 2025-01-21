@@ -32,7 +32,7 @@ function ContactForm() {
 					className='border resize-none'
 					id='contactForm'
 					name='message'
-					rows='5'
+					rows={5}
 				/>
 			</label>
 			<button className='border'>Send</button>

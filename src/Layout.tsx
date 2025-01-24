@@ -2,14 +2,14 @@ import { Outlet } from 'react-router-dom'
 
 function Layout() {
 	return (
-		<div className='px-6'>
-			<header>
-				<img src='/Logo.svg' alt='Logo' />
+		<>
+			<header className='h-24 bg-gradient-end pl-32 pt-3 fill-white text-white'>
+				<img src='/Logo-white.svg' alt='Logo' className='w-20' />
 			</header>
-			<main>
+			<main className='px-6 py-3'>
 				<Outlet />
 			</main>
-		</div>
+		</>
 	)
 }
 

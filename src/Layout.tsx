@@ -1,5 +1,7 @@
 import { Outlet } from 'react-router-dom'
 
+import CookiesBanner from './components/CookiesBanner'
+
 function Layout() {
 	return (
 		<>
@@ -9,6 +11,7 @@ function Layout() {
 			<main className='px-3 py-3 md:px-6 md:py-10'>
 				<Outlet />
 			</main>
+			<CookiesBanner />
 		</>
 	)
 }

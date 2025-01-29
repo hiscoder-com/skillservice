@@ -2,6 +2,7 @@ import Form from '../components/Form'
 import Lottie from '../components/LottieAnimation'
 import RunningLine from '../components/RunningLine'
 import Social from '../components/Social'
+import CookiesBanner from '../components/CookiesBanner'
 
 function HomePage() {
 	return (
@@ -36,6 +37,7 @@ function HomePage() {
 			</div>
 			<Form />
 			<RunningLine />
+			<CookiesBanner />
 		</div>
 	)
 }

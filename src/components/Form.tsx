@@ -28,9 +28,9 @@ function Form() {
 					name='email'
 					type='email'
 					placeholder='Your email'
-					className='w-full placeholder:text-sm placeholder:font-lexend p-[1.5vh] h-[6.29vh] rounded-lg text-sm mt-[3.14vh] md:mt-[2.51vh] md:h-[5.03vh] md:p-[1.11vh] xl:mt-4 xl:h-12'
+					className='select-none w-full placeholder:text-sm placeholder:font-lexend p-[1.5vh] h-[6.29vh] rounded-lg text-sm mt-[3.14vh] md:mt-[2.51vh] md:h-[5.03vh] md:p-[1.11vh] xl:mt-4 xl:h-12'
 				/>
-				<button className='w-full bg-primary-300 h-[6.29vh] hover:bg-primary-200 active:bg-primary-100 rounded-lg mt-[2.09vh] font-lexend text-sm md:mt-[1.67vh] md:h-[5.03vh] xl:h-12 xl:mt-4'>
+				<button className='select-none w-full bg-primary-300 h-[6.29vh] hover:bg-primary-200 active:bg-primary-100 rounded-lg mt-[2.09vh] font-lexend text-sm md:mt-[1.67vh] md:h-[5.03vh] xl:h-12 xl:mt-4'>
 					Join wishlist
 				</button>
 			</form>

@@ -28,9 +28,9 @@ function Social() {
 	]
 
 	return (
-		<div className='flex mt-[1.6vh]'>
-			{icons.map(icon => (
-				<a href={icon.link} target='_blank'>
+		<div className='flex mt-[1.6vh] select-none'>
+			{icons.map((icon, index) => (
+				<a key={index} href={icon.link} target='_blank'>
 					<img
 						src={icon.icon}
 						alt={icon.alt}

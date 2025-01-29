@@ -6,7 +6,7 @@ import CookiesBanner from '../components/CookiesBanner'
 
 function HomePage() {
 	return (
-		<div className='relative py-[3.8vh] min-w-full min-h-full flex flex-col items-center justify-between bg-gradient-to-b from-45% from-gradient-start to-gradient-end md:pt-[3.97vh] md:pb-[4.5vh] xl:pt-[8.6vh] xl:pb-[5.5vh] 2xl:py-[7vh]'>
+		<div className='relative py-[3.8vh] min-w-full min-h-full flex flex-col items-center justify-between bg-gradient-to-b from-45% from-gradient-start to-gradient-end md:pt-[3.97vh] md:pb-[4.5vh] xl:pt-[8.6vh] xl:pb-[5.5vh] 2xl:py-[7vh] select-none'>
 			<div className='flex flex-col xl:flex-row items-center w-full xl:px-14 xl:justify-between 2xl:px-32'>
 				<div className='flex flex-col items-center xl:items-start'>
 					<img

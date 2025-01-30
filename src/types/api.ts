@@ -1,9 +1,9 @@
 export interface ModalProps {
-	children: React.ReactNode
-	setModal: (isOpen: boolean) => void
+  children: React.ReactNode
+  setModal: (isOpen: boolean) => void
 }
 
 export interface CookiesModalProps {
-	children: React.ReactNode
-	handleAfterClick: () => void
+  children: React.ReactNode
+  handleAfterClick: () => void
 }

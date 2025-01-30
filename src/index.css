@@ -3,41 +3,41 @@
 @tailwind utilities;
 
 @layer base {
-	@font-face {
-		font-family: 'Lexend-VariableFont_wght';
-		src: url('/fonts/Lexend-VariableFont_wght.ttf') format('truetype');
-		font-style: normal;
-	}
+  @font-face {
+    font-family: 'Lexend-VariableFont_wght';
+    src: url('/fonts/Lexend-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+  }
 
-	@font-face {
-		font-family: 'Koulen-Regular';
-		src: url('/fonts/Koulen-Regular.ttf') format('truetype');
-		font-style: normal;
-	}
+  @font-face {
+    font-family: 'Koulen-Regular';
+    src: url('/fonts/Koulen-Regular.ttf') format('truetype');
+    font-style: normal;
+  }
 
-	@font-face {
-		font-family: 'SourGummy';
-		src: url('/fonts/SourGummy-VariableFont_wdth,wght.ttf') format('truetype');
-		font-style: normal;
-	}
+  @font-face {
+    font-family: 'SourGummy';
+    src: url('/fonts/SourGummy-VariableFont_wdth,wght.ttf') format('truetype');
+    font-style: normal;
+  }
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 #root,
 body,
 html {
-	width: 100%;
-	height: 100%;
-	overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 ul[class],
 ol[class] {
-	padding: 0;
+  padding: 0;
 }
 
 body,
@@ -54,37 +54,37 @@ figcaption,
 blockquote,
 dl,
 dd {
-	margin: 0;
+  margin: 0;
 }
 
 body {
-	scroll-behavior: smooth;
-	text-rendering: optimizeSpeed;
-	line-height: 1.5;
-	font-size: 16px;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 ul[class],
 ol[class] {
-	list-style: none;
+  list-style: none;
 }
 
 a:not([class]) {
-	text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 img {
-	max-width: 100%;
-	display: block;
+  max-width: 100%;
+  display: block;
 }
 
 article > * + * {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 input,
 button,
 textarea,
 select {
-	font: inherit;
+  font: inherit;
 }

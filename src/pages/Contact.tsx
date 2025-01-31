@@ -21,10 +21,8 @@ function Contact() {
           Contact us!
         </h2>
         <p className='text-white font-lexend mt-6 xl:text-2xl w-full md:w-[39.25rem]'>
-          Lorem ipsum dolor sit amet consectetur. Aliquam non sagittis nisl
-          cursus lorem nibh amet ut amet. Sit et gravida non neque nec aliquam
-          magnis ac viverra. Arcu mattis id mollis fringilla morbi vestibulum
-          vel. Euismod arcu ante eu viverra diam scelerisque a arcu.
+          We are here to assist you with any questions, concerns, or feedback
+          regarding Skilldor. Feel free to reach out to us:
         </p>
         <form
           className='grid gap-4 mt-9 w-full md:w-[39.25rem]'

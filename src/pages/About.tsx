@@ -1,12 +1,11 @@
+import { Classes } from '../constants/ClassesPages'
+
 function About() {
-  const titleClasses =
-    'text-2xl font-semibold ml-10 text-primary-500 sm:text-3xl'
-  const subtitleClasses =
-    'text-xl font-semibold ml-6 mt-6 text-primary-500 sm:text-2xl sm:mt-12'
+  const { TITLE, SUBTITLE } = Classes
 
   return (
     <>
-      <h2 className={titleClasses}>About Skilldor</h2>
+      <h2 className={TITLE}>About Skilldor</h2>
       <p className='mt-3 sm:mt-6'>
         Welcome to <b>Skilldor</b>, the ultimate basketball training platform
         designed to help players of all levels improve their skills through
@@ -15,14 +14,14 @@ function About() {
         training programs to enhance your shooting, dribbling, and overall
         basketball abilities.
       </p>
-      <h3 className={subtitleClasses}>Our Mission</h3>
+      <h3 className={SUBTITLE}>Our Mission</h3>
       <p className='mt-3 sm:mt-6'>
         At Skilldor, we believe that skill development should be engaging,
         rewarding, and structured. Our goal is to provide basketball players
         with a powerful tool that keeps them motivated, tracks their progress,
         and helps them reach their full potential.
       </p>
-      <h3 className={subtitleClasses}>Key Features</h3>
+      <h3 className={SUBTITLE}>Key Features</h3>
       <div className='mt-3 sm:mt-6'>
         <ul className='flex flex-col gap-3'>
           <li className='list-disc ml-6'>
@@ -47,7 +46,7 @@ function About() {
           </li>
         </ul>
       </div>
-      <h3 className={subtitleClasses}>Why Choose Skilldor?</h3>
+      <h3 className={SUBTITLE}>Why Choose Skilldor?</h3>
       <p className='mt-3 sm:mt-6'>
         Skilldor is not just a training app – it’s a{' '}
         <b>basketball development ecosystem</b> that helps players stay
@@ -55,7 +54,7 @@ function About() {
         progress tracking, and a fun approach to practice, Skilldor makes
         skill-building more effective and enjoyable.
       </p>
-      <h3 className={subtitleClasses}>Who Is Skilldor For?</h3>
+      <h3 className={SUBTITLE}>Who Is Skilldor For?</h3>
       <div className='mt-3 sm:mt-6'>
         <ul className='flex flex-col gap-3'>
           <li className='list-disc ml-6'>
@@ -71,7 +70,7 @@ function About() {
           </li>
         </ul>
       </div>
-      <h3 className={subtitleClasses}>Join Skilldor Today!</h3>
+      <h3 className={SUBTITLE}>Join Skilldor Today!</h3>
       <p className='mt-3 sm:mt-6'>
         Start your basketball journey with Skilldor and take your game to the
         next level! Visit{' '}

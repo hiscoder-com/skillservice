@@ -1,4 +1,4 @@
-function PrivacyPolicy() {
+function Privacy() {
   return (
     <>
       <h2 className='text-xl font-bold text-center'>Privacy Policy</h2>
@@ -41,4 +41,4 @@ function PrivacyPolicy() {
   )
 }
 
-export default PrivacyPolicy
+export default Privacy

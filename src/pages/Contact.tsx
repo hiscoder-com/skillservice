@@ -1,6 +1,6 @@
 import { useForm } from '@formspree/react'
 
-function ContactForm() {
+function Contact() {
   const [state, handleSubmit] = useForm(
     `${import.meta.env.VITE_FORMSPREE_CODE}`
   )
@@ -62,4 +62,4 @@ function ContactForm() {
   )
 }
 
-export default ContactForm
+export default Contact

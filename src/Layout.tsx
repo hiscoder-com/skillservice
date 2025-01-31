@@ -12,6 +12,7 @@ function Layout() {
         <Outlet />
       </main>
       <CookiesBanner />
+      <footer className='h-12 bg-primary-600'></footer>
     </>
   )
 }

@@ -2,7 +2,7 @@ import { useLottie } from 'lottie-react'
 import animationData from '../assets/animations/data.json'
 
 interface LottieProps {
-  centering: string
+  centering?: string
 }
 
 const Lottie = ({ centering }: LottieProps) => {

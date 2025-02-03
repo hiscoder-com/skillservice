@@ -51,7 +51,7 @@ function Contact() {
           </button>
         </form>
         <img
-          src='/Basketball_ball.svg'
+          src='/basketball-ball.svg'
           alt='ball'
           className='absolute w-28 -top-20 -right-4 sm:-top-7 sm:-right-4 sm:w-28 lg:w-72 lg:-top-20 lg:-right-12 xl:w-80 xl:-top-20 xl:-right-18 2xl:w-[39.25rem] 2xl:-top-40 2xl:-right-24'
         />

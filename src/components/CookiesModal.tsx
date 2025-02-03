@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Cookies from 'js-cookie'
 
 import { Modal } from './Modal'
-import { CookiesModalProps } from '../types/api'
+import { CookiesModalProps } from '../types/props'
 
 function CookiesModal({ handleAfterClick, children }: CookiesModalProps) {
   const [modal, setModal] = useState(false)

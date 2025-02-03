@@ -1,4 +1,4 @@
-import { ModalProps } from '../types/api'
+import { ModalProps } from '../types/props'
 
 export function Modal({ children, setModal }: ModalProps) {
   const closeModal = (e: React.MouseEvent<HTMLDivElement | SVGSVGElement>) => {

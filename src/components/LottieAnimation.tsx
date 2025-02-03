@@ -1,15 +1,19 @@
-import { useLottie } from "lottie-react";
-import animationData from "../assets/animations/data.json";
+import { useLottie } from 'lottie-react'
+import animationData from '../assets/animations/data.json'
 
-const Lottie = () => {
+const Lottie = ({ centering }) => {
   const options = {
     animationData: animationData,
-    loop: true
-  };
+    loop: true,
+  }
 
-  const { View } = useLottie(options);
+  const { View } = useLottie(options)
 
-  return <div className='animate-display absolute -top-[7vh] -right-3 w-[29.45vh] mt-[4vh] md:w-[32.5vh] md:-top-[8.5vh] md:-right-[4vh] xl:-right-[10vh] xl:w-[73.2vh] xl:-top-[20vh] 2xl:-right-[19vh] 2xl:w-[87vh] 2xl:-top-[22vh]'>{View}</div>;
-};
+  const classes = centering
+    ? 'animate-display w-[29.45vh] md:w-[32.5vh] xl:w-[73.2vh] 2xl:w-[87vh]'
+    : 'animate-display absolute -top-[7vh] -right-3 w-[29.45vh] mt-[4vh] md:w-[32.5vh] md:-top-[8.5vh] md:-right-[4vh] xl:-right-[10vh] xl:w-[73.2vh] xl:-top-[20vh] 2xl:-right-[19vh] 2xl:w-[87vh] 2xl:-top-[22vh]'
 
-export default Lottie;
+  return <div className={classes}>{View}</div>
+}
+
+export default Lottie

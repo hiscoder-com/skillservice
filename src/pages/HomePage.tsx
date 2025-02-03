@@ -10,7 +10,7 @@ function HomePage() {
       <div className='flex flex-col xl:flex-row items-center w-full xl:px-14 xl:justify-between 2xl:px-32'>
         <div className='flex flex-col items-center xl:items-start'>
           <img
-            src='Logo.svg'
+            src='logo.svg'
             alt='Skilldor'
             className='w-[10.22vh] h-[7.99vh] md:w-[12.58vh] md:h-[9.75vh] xl:w-[17.52vh] xl:h-[13.68vh] 2xl:w-[14.82vh] 2xl:h-[11.57vh]'
           />

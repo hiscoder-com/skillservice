@@ -1,7 +1,7 @@
 function Social() {
   const icons = [
     {
-      icon: 'Discord.svg',
+      icon: 'discord.svg',
       link: 'https://discord.gg/SjUgYyK3',
       alt: 'Discord',
     },
@@ -11,7 +11,7 @@ function Social() {
       alt: 'instagram',
     },
     {
-      icon: 'tik tok.svg',
+      icon: 'tik-tok.svg',
       link: 'https://www.tiktok.com/@skilldor',
       alt: 'tik tok',
     },
@@ -21,7 +21,7 @@ function Social() {
       alt: 'youtube',
     },
     {
-      icon: 'X.svg',
+      icon: 'x.svg',
       link: 'https://x.com/skilldorcom',
       alt: 'X',
     },

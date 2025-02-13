@@ -1,6 +1,6 @@
 import { useForm } from '@formspree/react'
 
-function ContactForm() {
+function Contact() {
   const [state, handleSubmit] = useForm(
     `${import.meta.env.VITE_FORMSPREE_CODE}`
   )
@@ -21,10 +21,8 @@ function ContactForm() {
           Contact us!
         </h2>
         <p className='text-white font-lexend mt-6 xl:text-2xl w-full md:w-[39.25rem]'>
-          Lorem ipsum dolor sit amet consectetur. Aliquam non sagittis nisl
-          cursus lorem nibh amet ut amet. Sit et gravida non neque nec aliquam
-          magnis ac viverra. Arcu mattis id mollis fringilla morbi vestibulum
-          vel. Euismod arcu ante eu viverra diam scelerisque a arcu.
+          We are here to assist you with any questions, concerns, or feedback
+          regarding Skilldor. Feel free to reach out to us:
         </p>
         <form
           className='grid gap-4 mt-9 w-full md:w-[39.25rem]'
@@ -53,7 +51,7 @@ function ContactForm() {
           </button>
         </form>
         <img
-          src='/Basketball_ball.svg'
+          src='/basketball-ball.svg'
           alt='ball'
           className='absolute w-28 -top-20 -right-4 sm:-top-7 sm:-right-4 sm:w-28 lg:w-72 lg:-top-20 lg:-right-12 xl:w-80 xl:-top-20 xl:-right-18 2xl:w-[39.25rem] 2xl:-top-40 2xl:-right-24'
         />
@@ -62,4 +60,4 @@ function ContactForm() {
   )
 }
 
-export default ContactForm
+export default Contact

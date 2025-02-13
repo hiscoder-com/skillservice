@@ -1,6 +1,8 @@
+type HeadingLevel = 'h2' | 'h3' | 'h4'
+
 interface TitleProps {
   children: string
-  type: string
+  type: HeadingLevel
 }
 
 function Title({ children, type }: TitleProps) {

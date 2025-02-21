@@ -2,7 +2,7 @@ function Social() {
   const icons = [
     {
       icon: 'discord.svg',
-      link: 'https://discord.gg/SjUgYyK3',
+      link: 'https://discord.gg/anHD2ceePQ',
       alt: 'Discord',
     },
     {

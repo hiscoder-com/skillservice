@@ -14,7 +14,7 @@ export function Modal({ children, setModal }: ModalProps) {
       <div className='relative bg-primary-400 rounded-lg p-3'>
         <div
           className='cursor-pointer absolute top-5 right-5 w-8'
-          onClick={closeModal}>
+          onClick={() => setModal(false)}>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'

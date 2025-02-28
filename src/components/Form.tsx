@@ -16,7 +16,7 @@ function Form() {
   return (
     <div className='w-full px-4 z-10 md:flex md:items-center md:gap-[3vh] md:px-6 justify-between xl:px-14 xl:gap-0 2xl:px-32'>
       <h3 className='select-none text-white font-lexend text-[3.4vh] font-semibold text-center md:text-[7.18vw] md:text-left md:leading-[1.1] xl:text-[5vw] 2xl:text-[4.8vw]'>
-        Coming this Winter 2025
+        Coming this Spring 2025
       </h3>
       <form
         onSubmit={handleSubmit}
